@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zenflow Labs | Mindful Tools for a Focused Life</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#4A90E2',
+                        secondary: '#3DDC97',
+                        accent: '#FF8C42',
+                        softbg: '#F9FBFD'
+                    },
+                    fontFamily: {
+                        heading: ['Poppins', 'sans-serif'],
+                        body: ['Open Sans', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .hero-gradient {
+            background: linear-gradient(135deg, #4A90E2 0%, #3DDC97 100%);
+        }
+        .cta-gradient {
+            background: linear-gradient(135deg, #FF8C42 0%, #FFB672 100%);
+        }
+        .nav-sticky {
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            backdrop-filter: blur(10px);
+            background: rgba(255, 255, 255, 0.9);
+        }
+        .feature-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        .mobile-mockup {
+            filter: drop-shadow(0 25px 25px rgba(0, 0, 0, 0.15));
+        }
+        .testimonial-card {
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(74, 144, 226, 0.1);
+        }
+    </style>
+</head>
+<body class="font-body text-gray-700">
+    <!-- Navigation -->
+    <nav class="nav-sticky py-4 transition-all duration-300 shadow-sm">
+        <div class="container mx-auto px-4 md:px-8 flex justify-between items-center">
+            <a href="#" class="font-heading text-xl md:text-2xl font-bold flex items-center">
+                <span class="bg-primary text-white rounded-lg px-2 py-1 mr-2">Zen</span>
+                <span>flow Labs</span>
+            </a>
+            
+            <div class="hidden md:flex space-x-8">
+                <a href="#" class="font-medium hover:text-primary transition">Home</a>
+                <a href="#about" class="font-medium hover:text-primary transition">About</a>
+                <a href="#features" class="font-medium hover:text-primary transition">Features</a>
+                <a href="#testimonials" class="font-medium hover:text-primary transition">Stories</a>
+                <a href="#blog" class="font-medium hover:text-primary transition">Blog</a>
+            </div>
+            
+            <div class="flex items-center">
+                <div class="flex mr-4 rounded-full bg-gray-100 p-1">
+                    <button class="px-3 py-1 rounded-full bg-white text-primary text-sm font-medium shadow-sm transition">EN</button>
+                    <button class="px-3 py-1 text-gray-600 text-sm transition">ID</button>
+                </div>
+                <button class="hidden md:block bg-accent hover:bg-opacity-90 text-white font-medium py-2 px-4 rounded-full transition">
+                    Download App
+                </button>
+                <button class="md:hidden">
+                    <i data-feather="menu" class="text-gray-700"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient text-white">
+        <div class="container mx-auto px-4 md:px-8 py-16 md:py-24 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-12 md:mb-0" data-aos="fade-right">
+                <h1 class="font-heading text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">
+                    Designing Mindful Mobile Tools for Daily Focus
+                </h1>
+                <p class="text-xl md:text-2xl opacity-90 mb-8 max-w-lg">
+                    Zenflow Labs helps you build positive habits, manage stress, and find clarity in the digital age.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <button class="bg-white text-primary hover:bg-opacity-90 py-3 px-8 rounded-full font-bold text-lg transition shadow-lg">
+                        Try for Free
+                    </button>
+                    <button class="border-2 border-white hover:bg-white hover:bg-opacity-10 py-3 px-8 rounded-full font-medium text-lg transition">
+                        Learn More
+                    </button>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center" data-aos="fade-left">
+                <img src="http://static.photos/technology/1200x630/12" alt="App interface" class="rounded-xl mobile-mockup w-full max-w-md">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 md:py-24 bg-softbg">
+        <div class="container mx-auto px-4 md:px-8">
+            <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-12 md:mb-0" data-aos="fade-up">
+                    <img src="http://static.photos/people/1024x576/5" alt="Team" class="rounded-xl shadow-lg w-full">
+                </div>
+                <div class="md:w-1/2 md:pl-16" data-aos="fade-up" data-aos-delay="100">
+                    <h2 class="font-heading text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+                        About Zenflow Labs
+                    </h2>
+                    <p class="text-lg text-gray-600 mb-6">
+                        Born in Indonesia's vibrant tech ecosystem, Zenflow Labs merges mindfulness with modern technology. We create tools to help people thrive in today's fast-paced digital world.
+                    </p>
+                    <p class="text-lg text-gray-600">
+                        Our mission is to help you find calm and clarity through beautifully designed apps that support your journey toward balanced living and meaningful productivity.
+                    </p>
+                    <div class="mt-8 bg-white p-5 rounded-xl inline-flex items-center shadow">
+                        <i data-feather="map-pin" class="text-accent mr-3"></i>
+                        <span class="font-medium">Made with mindfulness in Indonesia</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-16 md:py-24">
+        <div class="container mx-auto px-4 md:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="font-heading text-3xl md:text-4xl font-bold text-gray-800 mb-4" data-aos="fade-up">
+                    Tools for a Balanced Life
+                </h2>
+                <p class="text-xl text-gray-600" data-aos="fade-up" data-aos-delay="100">
+                    Mindful features designed to help you focus, grow, and recharge
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="feature-card bg-white p-8 rounded-2xl transition-all duration-300" data-aos="fade-up">
+                    <div class="w-14 h-14 rounded-lg bg-blue-100 text-primary flex items-center justify-center mb-6">
+                        <i data-feather="clock" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="font-heading text-2xl font-bold text-gray-800 mb-3">Daily Focus</h3>
+                    <p class="text-gray-600 mb-4">
+                        Timer-based focus sessions with distraction-free environment settings to boost your productivity and attention span.
+                    </p>
+                    <ul class="space-y-2">
+                        <li class="flex items-center"><i data-feather="check-circle" class="text-secondary mr-2"></i> Pomodoro technique</li>
+                        <li class="flex items-center"><i data-feather="check-circle" class="text-secondary mr-2"></i> Focus analytics</li>
+                        <li class="flex items-center"><i data-feather="check-circle" class="text-secondary mr-2"></i> Mindful notifications</li>
+                    </ul>
+                </div>
+                
+                <!-- Feature 2 -->
+                <div class="feature-card bg-white p-8 rounded-2xl transition-all duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-14 h-14 rounded-lg bg-green-100 text-secondary flex items-center justify-center mb-6">
+                        <i data-feather="calendar" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="font-heading text-2xl font-bold text-gray-800 mb-3">Habit Builder</h3>
+                    <p class="text-gray-600 mb-4">
+                        Visual habit tracker that helps you build routines with daily streaks, insights, and personalized encouragement.
+                    </p>
+                    <ul class="space-y-2">
+                        <li class="flex items-center"><i data-feather="check-circle" class="text-secondary mr-2"></i> Custom habit creation</li>
+                        <li class="flex items-center"><i data-feather="check-circle" class="text-secondary mr-2"></i> Progress visualization</li>
+                        <li class="flex items-center"><i data-feather="check-circle" class="text-secondary mr-2"></i> Milestone rewards</li>
+                    </ul>
+                </div>
+                
+                <!-- Feature 3 -->
+                <div class="feature-card bg-white p-8 rounded-2xl transition-all duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <div class="w-14 h-14 rounded-lg bg-orange-100 text-accent flex items-center justify-center mb-6">
+                        <i data-feather="activity" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="font-heading text-2xl font-bold text-gray-800 mb-3">Stress Clarity</h3>
+                    <p class="text-gray-600 mb-4">
+                        Guided breathing exercises, reflective journaling, and calming audio sessions designed to reduce anxiety.
+                    </p>
+                    <ul class="space-y-2">
+                        <li class="flex items-center"><i data-feather="check-circle" class="text-secondary mr-2"></i> Biofeedback exercises</li>
+                        <li class="flex items-center"><i data-feather="check-circle" class="text-secondary mr-2"></i> Mood tracking</li>
+                        <li class="flex items-center"><i data-feather="check-circle" class="text-secondary mr-2"></i> Audio guided sessions</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-4 md:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="font-heading text-3xl md:text-4xl font-bold text-gray-800 mb-4" data-aos="fade-up">
+                    Real Stories of Focus
+                </h2>
+                <p class="text-xl text-gray-600" data-aos="fade-up" data-aos-delay="100">
+                    How our community finds balance with Zenflow
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card p-8" data-aos="fade-up">
+                    <div class="text-accent mb-4 flex">
+                        <i data-feather="star" class="w-5 h-5"></i>
+                        <i data-feather="star" class="w-5 h-5"></i>
+                        <i data-feather="star" class="w-5 h-5"></i>
+                        <i data-feather="star" class="w-5 h-5"></i>
+                        <i data-feather="star" class="w-5 h-5"></i>
+                    </div>
+                    <p class="text-lg text-gray-700 mb-6">
+                        "The habit tracker has transformed my mornings. I've built a consistent routine for the first time in years!"
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 rounded-full bg-gray-200 mr-4"></div>
+                        <div>
+                            <p class="font-bold text-gray-800">Dimas</p>
+                            <p class="text-gray-600">Bandung, Indonesia</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card p-8" data-aos="fade-up" data-aos-delay="100">
+                    <div class="text-accent mb-4 flex">
+                        <i data-feather="star" class="w-5 h-5"></i>
+                        <i data-feather="star" class="w-5 h-5"></i>
+                        <i data-feather="star" class="w-5 h-5"></i>
+                        <i data-feather="star" class="w-5 h-5"></i>
+                        <i data-feather="star" class="w-5 h-5"></i>
+                    </div>
+                    <p class="text-lg text-gray-700 mb-6">
+                        "Stress clarity tools are my sanctuary during busy weeks. The breathing exercises have become my daily ritual."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 rounded-full bg-gray-200 mr-4"></div>
+                        <div>
+                            <p class="font-bold text-gray-800">Sinta</p>
+                            <p class="text-gray-600">Surabaya, Indonesia</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card p-8" data-aos="fade-up" data-aos-delay="200">
+                    <div class="text-accent mb-4 flex">
+                        <i data-feather="star" class="w-5 h-5"></i>
+                        <i data-feather="star" class="w-5 h-5"></i>
+                        <i data-feather="star" class="w-5 h-5"></i>
+                        <i data-feather="star" class="w-5 h-5"></i>
+                        <i data-feather="star" class="w-5 h-5"></i>
+                    </div>
+                    <p class="text-lg text-gray-700 mb-6">
+                        "As an entrepreneur, the focus tools help me maintain clarity amidst chaos. Highly recommended for busy professionals!"
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 rounded-full bg-gray-200 mr-4"></div>
+                        <div>
+                            <p class="font-bold text-gray-800">Rani</p>
+                            <p class="text-gray-600">Jakarta, Indonesia</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-gradient py-16 md:py-24 text-white">
+        <div class="container mx-auto px-4 md:px-8">
+            <div class="max-w-3xl mx-auto text-center" data-aos="zoom-in">
+                <h2 class="font-heading text-3xl md:text-4xl font-bold mb-6">
+                    Start your mindful journey today
+                </h2>
+                <p class="text-xl mb-8 max-w-2xl mx-auto">
+                    Join thousands finding balance through our scientifically-backed mindfulness tools
+                </p>
+                <button class="bg-white hover:bg-opacity-90 text-accent py-4 px-10 rounded-full font-bold text-xl transition shadow-xl">
+                    Download the App
+                </button>
+                <div class="mt-8 flex justify-center gap-4">
+                    <div class="bg-black bg-opacity-20 rounded-lg px-4 py-2">App Store</div>
+                    <div class="bg-black bg-opacity-20 rounded-lg px-4 py-2">Google Play</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Preview -->
+    <section id="blog" class="py-16 md:py-24 bg-softbg">
+        <div class="container mx-auto px-4 md:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="font-heading text-3xl md:text-4xl font-bold text-gray-800 mb-4" data-aos="fade-up">
+                    Mindfulness Insights
+                </h2>
+                <p class="text-xl text-gray-600" data-aos="fade-up" data-aos-delay="100">
+                    Explore our latest articles on mindful living
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Blog 1 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-lg transition hover:shadow-xl" data-aos="fade-up">
+                    <img src="http://static.photos/minimal/640x360/1" alt="Morning routine" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <span class="text-sm text-accent font-medium">Productivity</span>
+                        <h3 class="font-heading text-xl font-bold text-gray-800 my-3">5 Simple Habits for a Focused Morning</h3>
+                        <p class="text-gray-600 mb-4">Start your day with intention using these science-backed routines.</p>
+                        <a href="#" class="text-primary font-medium flex items-center">
+                            Read more
+                            <i data-feather="arrow-right" class="ml-2 w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Blog 2 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-lg transition hover:shadow-xl" data-aos="fade-up" data-aos-delay="100">
+                    <img src="http://static.photos/technology/640x360/3" alt="Mindful tech" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <span class="text-sm text-accent font-medium">Digital Wellness</span>
+                        <h3 class="font-heading text-xl font-bold text-gray-800 my-3">Mindfulness in the Digital Age</h3>
+                        <p class="text-gray-600 mb-4">How to find calm amidst constant notifications and digital distractions.</p>
+                        <a href="#" class="text-primary font-medium flex items-center">
+                            Read more
+                            <i data-feather="arrow-right" class="ml-2 w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Blog 3 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-lg transition hover:shadow-xl" data-aos="fade-up" data-aos-delay="200">
+                    <img src="http://static.photos/wellness/640x360/2" alt="Stress reduction" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <span class="text-sm text-accent font-medium">Mental Health</span>
+                        <h3 class="font-heading text-xl font-bold text-gray-800 my-3">How to Reduce Stress in 10 Minutes</h3>
+                        <p class="text-gray-600 mb-4">Quick techniques to regain composure during stressful moments.</p>
+                        <a href="#" class="text-primary font-medium flex items-center">
+                            Read more
+                            <i data-feather="arrow-right" class="ml-2 w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <button class="border-2 border-primary hover:bg-primary hover:text-white py-3 px-8 rounded-full font-medium text-lg transition">
+                    View All Articles
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-16">
+        <div class="container mx-auto px-4 md:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="md:col-span-2">
+                    <a href="#" class="font-heading text-xl font-bold flex items-center mb-6">
+                        <span class="bg-primary rounded-lg px-2 py-1 mr-2">Zen</span>
+                        <span>flow Labs</span>
+                    </a>
+                    <p class="text-gray-400 max-w-md mb-8">
+                        Mindful mobile tools designed to enhance focus, build habits, and bring clarity to your daily life.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition">
+                            <i data-feather="instagram"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition">
+                            <i data-feather="twitter"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition">
+                            <i data-feather="linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="font-heading text-lg font-bold mb-6">Navigation</h4>
+                    <ul class="space-y-4">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Home</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition">About</a></li>
+                        <li><a href="#features" class="text-gray-400 hover:text-white transition">Features</a></li>
+                        <li><a href="#blog" class="text-gray-400 hover:text-white transition">Blog</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-heading text-lg font-bold mb-6">Get the App</h4>
+                    <div class="space-y-4">
+                        <a href="#" class="inline-flex items-center bg-black bg-opacity-40 rounded-lg px-4 py-2 hover:bg-opacity-60 transition">
+                            <i data-feather="apple" class="mr-2"></i>
+                            App Store
+                        </a>
+                        <a href="#" class="inline-flex items-center bg-black bg-opacity-40 rounded-lg px-4 py-2 hover:bg-opacity-60 transition">
+                            <i data-feather="smartphone" class="mr-2"></i>
+                            Google Play
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-16 pt-8 text-center text-gray-500">
+                <p>© 2025 Zenflow Labs – Proudly made in Indonesia</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize animations and icons
+        document.addEventListener('DOMContentLoaded', function() {
+            AOS.init({
+                duration: 800,
+                offset: 100,
+                once: true
+            });
+            
+            feather.replace();
+            
+            // Add smooth scrolling
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>

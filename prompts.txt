@@ -1,0 +1,119 @@
+You are tasked with creating a **complete, professional, and visually stunning landing page** for a fictional Indonesian company called **Zenflow Labs**.  
+
+Zenflow Labs is a creative technology startup from Indonesia that designs **mindful mobile tools** to help users with:
+- Daily focus
+- Habit building
+- Stress clarity
+
+The landing page must look **modern, inspiring, and highly engaging**, with a clear professional aesthetic that appeals to young professionals, students, and entrepreneurs who care about productivity, mindfulness, and balanced living.  
+
+---
+
+## 1. Brand Identity
+- **Company Name:** Zenflow Labs
+- **Tagline:** "Mindful Tools for a Focused Life"
+- **Tone of Voice:** Calm, inspiring, professional, yet warm and approachable.
+- **Color Palette:**
+  - Primary: Soft calming blue (#4A90E2)
+  - Secondary: Fresh turquoise/green (#3DDC97)
+  - Accent: Warm orange (#FF8C42) for CTAs
+  - Neutral: White and light gray backgrounds
+- **Typography:**
+  - Headings: Bold, modern sans-serif (e.g., Poppins, Inter, or Nunito)
+  - Body: Clean, readable sans-serif (e.g., Open Sans, Lato)
+- **Visual Style:**
+  - Minimalist, clean, with smooth gradients and subtle animations.
+  - Use vector illustrations or abstract shapes that represent mindfulness, focus, and flow.
+  - Imagery should feel light, airy, and positive.
+
+---
+
+## 2. Page Structure
+### Hero Section
+- Full-width background gradient (blue → turquoise).
+- Large headline: **"Designing Mindful Mobile Tools for Daily Focus"**
+- Subheadline: "Zenflow Labs helps you build positive habits, manage stress, and find clarity in the digital age."
+- Two CTA buttons:
+  - Primary: **"Try for Free"** (solid orange button)
+  - Secondary: **"Learn More"** (outline button)
+- Hero image: Illustration or mockup of a mobile app interface showing focus timer, habit tracker, and breathing exercise.
+
+### About Section
+- Title: "About Zenflow Labs"
+- Short paragraph: Explain that Zenflow Labs is an Indonesian-born startup with a mission to merge technology and mindfulness for everyday life.
+- Visual: Illustration of a creative team or app mockup.
+
+### Features Section
+- Three feature blocks with icons:
+  1. **Daily Focus** – Focus timer, distraction-free mode, mindful notifications.
+  2. **Habit Builder** – Visual habit tracker, streaks, and progress insights.
+  3. **Stress Clarity** – Guided breathing, journaling prompts, and calming audio.
+- Each feature should have a short, inspiring description.
+
+### Testimonials Section
+- Carousel or slider with 3–4 testimonials.
+- Example:  
+  - "Zenflow Labs helps me stay focused while working remotely." – Rani, Jakarta  
+  - "The habit tracker is simple yet powerful. I finally built a morning routine." – Dimas, Bandung  
+  - "Stress clarity tools are a lifesaver during busy weeks." – Sinta, Surabaya
+
+### Call-to-Action Section
+- Background with a contrasting color (soft orange).
+- Headline: "Start your mindful journey today."
+- CTA button: **"Download the App"**
+
+### Blog Preview Section (Optional)
+- Show 2–3 blog cards with titles like:
+  - "5 Simple Habits for a Focused Morning"
+  - "Mindfulness in the Digital Age"
+  - "How to Reduce Stress in 10 Minutes"
+
+### Footer
+- Navigation links: Home, About, Features, Blog, Contact
+- Social media icons: Instagram, LinkedIn, Twitter/X
+- Company info: "© 2025 Zenflow Labs – Proudly made in Indonesia."
+
+---
+
+## 3. Customization & Interactivity
+- Smooth scroll navigation.
+- Subtle animations (fade-in, slide-up) for sections.
+- Hover effects on buttons and cards.
+- Responsive design (mobile-first).
+- Language toggle (English/Indonesian).
+- Sticky navigation bar.
+
+---
+
+## 4. Copywriting Style
+- Use **short, inspiring, and relatable sentences**.
+- Avoid jargon; keep it human and motivating.
+- Blend storytelling: emphasize that Zenflow Labs was born in Indonesia to help people thrive in a fast-paced digital world.
+
+---
+
+## 5. Technical Requirements
+- Use **HTML5, CSS3 (or Tailwind/Bootstrap), and JavaScript**.
+- Fully responsive across devices.
+- Optimized for fast loading.
+- Semantic structure (header, section, footer).
+- Include placeholders for images/illustrations.
+
+---
+
+## 6. Indonesian Origin Context
+- Mention Indonesia in the About section and footer.
+- Testimonials should feature Indonesian names and cities.
+- Subtle cultural pride: "Made with mindfulness in Indonesia."
+
+---
+
+## 7. Expected Output
+- Deliver a **complete landing page code** (HTML/CSS/JS).
+- Include all sections with real copy (no lorem ipsum).
+- Ensure the design feels **professional, modern, and truly engaging**.
+- The final result should look like a **world-class startup landing page** with a mindful, calming theme.
+
+---
+
+👉 Make sure the landing page feels **professional, inspiring, and visually stunning**, while clearly communicating Zenflow Labs’ mission as a mindful tech company from Indonesia.
